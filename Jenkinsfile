@@ -22,7 +22,6 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'echo From test'
-                sh 'sleep 10'
             }
         }
         stage('Deploy') {
